@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Dark Mode Toggle — Personaliseerbaar</title>
+  <style>
+    /* zie css/style.css voor uitgebreide uitleg en comments */
+  </style>
+</head>
+<body>
+  <div class="frame" role="main">
+    <header>
+      <div>
+        <h1>Dark mode toggle</h1>
+        <p class="lead">Gebruik de knop om te wisselen tussen licht en donker. Je voorkeur wordt onthouden.</p>
+      </div>
+
+      <div class="toggle-wrap">
+        <label id="themeLabel" class="muted">Thema</label>
+        <button id="themeToggle" class="theme-toggle" aria-pressed="false" aria-labelledby="themeLabel">
+          <span class="knob" aria-hidden="true">☀️</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="grid-demo" aria-label="Voorbeeld content">
+      <article class="card">
+        <h2>Project preview</h2>
+        <p class="muted">Deze dark mode toggle is door mij ontwikkeld om eenvoudig te wisselen tussen licht en donker. 
+            Je voorkeur wordt automatisch opgeslagen voor een persoonlijke ervaring.</p>
+            Dit blok gebruik ik om screenshots, links of een korte pitch te tonen.</p>
+      </article>
+
+      <article class="card">
+        <h2>Technologieën</h2>
+        <p class="muted">HTML • CSS (variabelen) • JavaScript • LocalStorage</p>
+      </article>
+    </section>
+
+    <footer>
+      <!-- Tip: pas kleuren aan in de <code>:root</code> CSS-variabelen bovenaan om het uiterlijk te personaliseren. -->
+      Gemaakt door Illusmt. Bekijk de code op <a href="https://github.com/Illusmt/Dark-modus-toggle" target="_blank" aria-label="GitHub">
+  <i class="fab fa-github fa-2x"></i></a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
