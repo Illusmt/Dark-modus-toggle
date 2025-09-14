@@ -1,2 +1,14 @@
-# Dark-modus-toggle
-Een eenvoudige dark mode toggle gebouwd met HTML, CSS-variabelen en JavaScript. De basis werkt al, maar wordt verder uitgebreid met animaties, systeemvoorkeurdetectie en opslag van voorkeuren. Licht en donker, met één klik.
+# Dark Modus Toggle 🌙
+
+Een eenvoudige maar uitbreidbare dark mode toggle gebouwd met HTML, CSS-variabelen en JavaScript. Met één klik wissel je tussen licht en donker thema. Ideaal als basis voor websites die gebruikers de keuze willen geven tussen dag- en nachtweergave.
+
+## 🔧 Features
+- Toggle-knop voor dark/light modus
+- Gebruik van CSS-variabelen voor themakleuren
+- JavaScript voor dynamische schakeling
+- Responsive en lichtgewicht
+
+## 📦 Installatie
+1. Clone deze repo:
+   ```bash
+   git clone https://github.com/Illusmt/Dark-modus-toggle.git
