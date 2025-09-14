@@ -12,3 +12,15 @@ Een eenvoudige maar uitbreidbare dark mode toggle gebouwd met HTML, CSS-variabel
 1. Clone deze repo:
    ```bash
    git clone https://github.com/Illusmt/Dark-modus-toggle.git
+2. Open index.html in je browser
+3. Pas style.css en script.js aan naar wens
+
+## 🚀 Toekomstige uitbreidingen
+- Animaties bij het uitschakelen
+- Detectie van systeemvoorkeuren (prefers-colo-scheme)
+- Opslaan van voorkeuren via localStorage
+- Toegankelijkheidsverbeteringen
+
+## 📸 Preview
+
+Screenshot komt er aan
