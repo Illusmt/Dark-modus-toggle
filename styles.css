@@ -3,11 +3,11 @@
        ----------------------------- */
     :root{
       /* Licht thema */
-      --bg: #f3e6ff;
+      --bg: #f0fffd;
       --card: #ffffff;
       --text: #0f1721;
       --muted: #55607a;
-      --accent: #05fbff;
+      --accent: #05ffcd;
       --accent-contrast: #ffffff;
 
       /* Donker thema */
@@ -15,7 +15,7 @@
       --card-dark: #0f1726;
       --text-dark: #e6eef8;
       --muted-dark: #9aa6c2;
-      --accent-dark: #05fbff;
+      --accent-dark: #05ffcd;
       --accent-contrast-dark: #0b1020;
 
       /* Animatie + maat */
@@ -61,7 +61,7 @@
       width: min(880px, 96vw);
       border-radius: calc(var(--radius) + 6px);
       background: linear-gradient(180deg, color-mix(in srgb, var(--card) 96%, black 2%) 0%, var(--card) 100%);
-      box-shadow: 0 6px 30px rgba(2,6,23,0.15);
+      box-shadow: 0 6px 30px rgba(6, 244, 232, 0.247);
       padding: 28px;
       transition: background var(--transition-slow) ease;
     }
