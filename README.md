@@ -23,4 +23,5 @@ Een eenvoudige maar uitbreidbare dark mode toggle gebouwd met HTML, CSS-variabel
 
 ## 📸 Preview
 
-Screenshot komt er aan
+<img width="1270" height="955" alt="image" src="https://github.com/user-attachments/assets/6493dfd0-729a-4b5a-9d62-98779b982519" />
+
